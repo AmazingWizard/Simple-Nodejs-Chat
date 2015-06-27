@@ -3,9 +3,10 @@
   <head>
     <title>Chat Testing</title>
     <link rel="stylesheet" href="/css/main-style.css"/>
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script>
-      var ws = new WebSocket('ws://sorcelator.koding.io:1234', 'echo-protocol');
+    //this will set the location of your server. If you are hosting this HTML file on the same device as the server, use Localhost. 
+      var ws = new WebSocket('ws://yourServerAddress:1234', 'echo-protocol');
       function htmlEntities(str) {
           return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
           }
