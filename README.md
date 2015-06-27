@@ -5,5 +5,5 @@ This is super dirty. I built this in an evening as an attempt to learn how to ut
 
 You will need to install the Websocket module in the folder you will be runing  your server.js file from:
 
-'npm nstall websocket'
+`npm nstall websocket`
 
